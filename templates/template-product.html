@@ -9,11 +9,11 @@
       rel="stylesheet"
     />
     <link
-      rel="icon"
-      href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/155/ear-of-maize_1f33d.png"
+      rel="icon" type="image/x-icon"
+      href="/templates/img/logo.png"
     />
 
-    <title>{%PRODUCTNAME%} {%IMAGE%} /// NODE FARM</title>
+    <title>NODE ELETRO</title>
 
     <style>
       *,
@@ -32,14 +32,14 @@
       body {
         padding: 5rem 5rem 10rem;
         line-height: 1.7;
-        font-family: 'Nunito Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         color: #555;
         min-height: 100vh;
         background: linear-gradient(to bottom right, #9be15d, #00e3ae);
       }
 
       h1 {
-        font-family: 'Megrim', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 6rem;
         color: white;
         transform: skewY(-5deg);
@@ -147,7 +147,7 @@
         left: 19rem;
       }
 
-      .product__organic {
+      .product__promotion {
         position: absolute;
         top: -4rem;
         right: -4rem;
@@ -163,7 +163,7 @@
         justify-content: center;
       }
 
-      .product__organic h5 {
+      .product__promotion h5 {
         font-weight: 900;
         text-transform: uppercase;
         font-size: 1.8rem;
@@ -267,10 +267,10 @@
 
   <body>
     <div class="container">
-      <h1>🌽 Node Farm 🥦</h1>
+      <h1>💻 Node Eletro 🎮</h1>
 
       <figure class="product">
-        <div class="product__organic {%NOT_ORGANIC%}"><h5>Organic</h5></div>
+        <div class="product__organic {%NOT_PROMOTION%}"><h5>Promoção</h5></div>
         <a href="#" class="product__back">
           <span class="emoji-left">👈</span>Back
         </a>
@@ -288,7 +288,7 @@
         <h2 class="product__name">{%PRODUCTNAME%}</h2>
         <div class="product__details">
           <p><span class="emoji-left">🌍</span>From {%FROM%}</p>
-          <p><span class="emoji-left">❤️</span>{%NUTRIENTS%}</p>
+          <p><span class="emoji-left">🏷️</span>{%TYPE%}</p>
           <p><span class="emoji-left">📦</span>{%QUANTITY%}</p>
           <p><span class="emoji-left">🏷</span>{%PRICE%}€</p>
         </div>
